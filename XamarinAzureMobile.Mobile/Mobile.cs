@@ -16,7 +16,7 @@ namespace XamarinAzureMobile.Core
         {
             MobileService = new MobileServiceClient(
                 "https://xamarinazuremobile.azure-mobile.net/",
-                "change applicaitonkey");
+                "mIVABPFTMECWfYeiYlglJtRCXWKpBf44");
         }
         
         /// <summary>

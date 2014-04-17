@@ -34,6 +34,8 @@ namespace XamarinAzureMobile.iOS
 			// Perform any additional setup after loading the view, typically from a nib.
             // CurrentPlatform.Init();
             _model = new SampleAzureMobile();
+            // initialize Azure
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
             _mobile = new Mobile();
             // initialize
             textUserName.Text = _model.UserName;

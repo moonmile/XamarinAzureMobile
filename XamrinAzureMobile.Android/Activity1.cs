@@ -34,6 +34,7 @@ namespace XamrinAzureMobile.Android
             textUpdated = FindViewById<EditText>(Resource.Id.textUpdated);
 
             _model = new SampleAzureMobile();
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
             _mobile = new Mobile();
         }
 
